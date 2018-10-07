@@ -16,14 +16,16 @@ body{
     
 }
 
-img{
+.thumbnail{
     filter: gray;
     -webkit-filter: grayscale(1);
 }
 
- img:hover{
-    filter: none;
+ .thumbnail:hover{
     
+    transform: scale(1.1);
+    filter: none;
+    -webkit-filter: grayscale(0%);
     
 }
 
@@ -86,12 +88,37 @@ hr{
     font-size:15px;
     
 }
+.container-fluid{
+ margin:auto;
+ width: 80%;
+}
+
+.img-responsive-courses{
+  height: 320px;
+}
+
+.img-responsive-skills{
+   height: 320px;
+    border:2px solid black;
+    box-sizing: border-box;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+.img-responsive-skills:hover{
+    filter:none;
+}
+
+.container-fluid .row{
+    margin-top:40px;
+}
+
 
 .myskills{
     max-width:800px;
     padding:40px;
     margin:0 auto;
-    margin-top:30px;
+    margin-top:50px;
     text-align:center;
     font-size:15px;
 }
