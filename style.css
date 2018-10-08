@@ -125,34 +125,34 @@ hr{
 
 
 
-.img-responsive-courses{
-  height: 320px;
+ .img-responsive-courses{
+  
   opacity:0;
 }
 .img-responsive-skills{
     opacity:0;
-   height: 320px;
+}
+
+.img-responsive-courses.start-animate{
+   animation-name: fadeInRight;
+animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  opacity:1;
+  height: 320px;
+}
+
+.img-responsive-skills.start-animate{
+    animation-name: fadeInLeft;
+    animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  opacity:1;
+  height: 320px;
     border:2px solid black;
     box-sizing: border-box;
     filter: gray;
     -webkit-filter: grayscale(1);
-    
-}
-
-.img-responsive-courses.start-animate{
-   
-animation-duration: 2s;
-  animation-delay: 2s;
-  animation-iteration-count: 1;
-  opacity:1;
-}
-
-.img-responsive-skills.start-animate{
-    
-    animation-duration: 2s;
-  animation-delay: 2s;
-  animation-iteration-count: 1;
-  opacity:1;
 }
 
 
