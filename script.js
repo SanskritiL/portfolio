@@ -28,7 +28,7 @@ if(wScroll >= $('.general-info').offset().top){
 
 
 
-if(wScroll >= $('.myskills').offset().top){
+if(wScroll >= $('.mywork').offset().top){
 
     $('.container-fluid div').each(function(){
         $('.container-fluid img').addClass('start-animate');
