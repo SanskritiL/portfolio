@@ -28,5 +28,24 @@ if(wScroll >= $('.general-info').offset().top){
 
 
 
+if(wScroll >= $('.myskills').offset().top){
+
+    $('.container-fluid div').each(function(){
+        $('.container-fluid img').addClass('start-animate');
+
+    });
+}
+
+
+
 
 });
+
+function github(){
+    window.open('https://github.com/SanskritiL'); 
+}
+function linkedin(){
+    window.open('https://www.linkedin.com/in/sanskriti-lamsal'); 
+}function facebook(){
+    window.open('https://www.facebook.com/sanskriti.lamsal'); 
+}

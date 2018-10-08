@@ -7,7 +7,7 @@ header{
 
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height:2100px;
+   
 }
 
 .container{
@@ -88,22 +88,75 @@ hr{
     font-size:15px;
     
 }
+.contactme{
+    max-width:800px;
+    padding:70px;
+    margin:0 auto;
+    text-align:center;
+    font-size:15px;
+    
+}
+.mystory{
+    max-width:800px;
+    padding:70px;
+    margin:0 auto;
+    text-align:center;
+    font-size:15px;
+    margin-top:50px;
+}
 .container-fluid{
  margin:auto;
  width: 80%;
 }
+.faceshot{
+    margin:0 auto;
+    width: 140px;
+    height:130px;
+    border: 2px solid black;
+    border-radius: 50%;
+    filter: gray;
+    -webkit-filter: grayscale(0.7);
+
+}
+.faceshot:hover{
+    filter:none;
+}
+
+
+
 
 .img-responsive-courses{
   height: 320px;
+  opacity:0;
 }
-
 .img-responsive-skills{
+    opacity:0;
    height: 320px;
     border:2px solid black;
     box-sizing: border-box;
     filter: gray;
     -webkit-filter: grayscale(1);
+    
 }
+
+.img-responsive-courses.start-animate{
+   
+animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  opacity:1;
+}
+
+.img-responsive-skills.start-animate{
+    
+    animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  opacity:1;
+}
+
+
+
 
 .img-responsive-skills:hover{
     filter:none;
