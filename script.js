@@ -148,8 +148,8 @@ function github(){
     window.open('https://github.com/SanskritiL'); 
 }
 function linkedin(){
-    window.open('https://www.linkedin.com/in/sanskriti-lamsal'); 
+    window.open('https://www.linkedin.com/in/sanskriti-lamsal-11858013b/'); 
 }function facebook(){
-    window.open('https://www.facebook.com/sanskriti.lamsal'); 
->>>>>>> 862c600c8bcb0b4d10d334821d84742401dfe7b3
+    window.open('https://www.facebook.com/sanskriti.lamsal.90'); 
+
 }
