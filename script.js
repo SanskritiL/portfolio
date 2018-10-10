@@ -45,7 +45,7 @@ function github(){
     window.open('https://github.com/SanskritiL'); 
 }
 function linkedin(){
-    window.open('https://www.linkedin.com/in/sanskriti-lamsal'); 
+    window.open('https://www.linkedin.com/in/sanskriti-lamsal-11858013b/'); 
 }function facebook(){
-    window.open('https://www.facebook.com/sanskriti.lamsal'); 
+    window.open('https://www.facebook.com/sanskriti.lamsal.90'); 
 }
